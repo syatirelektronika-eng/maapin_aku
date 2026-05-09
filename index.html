@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pink Glow Text</title>
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: black;
+      overflow: hidden;
+    }
+
+    h1{
+      color: #ff4fd8;
+      font-size: 70px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+      0%{
+        text-shadow:
+          0 0 5px #ff4fd8,
+          0 0 10px #ff4fd8,
+          0 0 20px #ff4fd8,
+          0 0 40px #ff4fd8;
+      }
+
+      100%{
+        text-shadow:
+          0 0 10px #ff8ae8,
+          0 0 20px #ff8ae8,
+          0 0 40px #ff8ae8,
+          0 0 80px #ff8ae8;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>MAAPIN AKU YAA BELL UDAH BIKIN KAMU GA NYAMAN, AKU JANJI GA BAKAL NGULANG IN HAL KAYAK GINI LAGI</h1>
+
+</body>
+</html>
